@@ -1,0 +1,110 @@
+﻿# Git ignore for .NET / WPF projects using Rider or Visual Studio
+# Generated: 2025-10-22
+
+########################
+# OS-specific
+########################
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS (in case of cross-platform edits)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+########################
+# IDE / Editors
+########################
+# JetBrains Rider / IntelliJ
+.idea/
+.shelf/
+*.sln.iml
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+########################
+# Build output
+########################
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Tt]est[Rr]esult*/
+[Tt]est[Rr]esults*/
+[Rr]elease/
+[Dd]ebug/
+
+# Publish / Artifacts
+artifacts/
+publish/
+*.publishsettings
+
+########################
+# .NET / NuGet
+########################
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.assets.json
+*.deps.json
+
+# Build caches
+*.pdb
+*.cache
+*.ilk
+*.obj
+*.iobj
+*.ipdb
+*.idb
+
+########################
+# WPF / XAML generated
+########################
+*.g.cs
+*.g.i.cs
+*.baml
+*.resources
+*.g.resources
+
+########################
+# Test & Coverage
+########################
+*.coverage
+*.coveragexml
+TestResult.xml
+
+########################
+# Misc
+########################
+*.tmp
+*.temp
+*.log
+*.bak
+*.orig
+*.swp
+*.swo
+
+# Local tools
+tools/**/bin/
+tools/**/obj/
